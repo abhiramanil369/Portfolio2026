@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Abhiram Anil</title>
+    <meta name="author" content="Abhiram Anil">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- HEADER / ABOUT ME SECTION -->
+      <div class="header-grid">
+        <div class="header-text">
+          <h1 class="name">Abhiram Anil</h1>
+          <p class="bio-paragraph">
+            I am a Computer Science & Engineering undergraduate at <strong>VIT Vellore</strong> with experience in Machine Learning, Document AI, Multi-Agent Systems, and NLP. Recently, I was a <strong>Developer Intern at Samsung R&D Institute Bangalore</strong>, where I worked on end-to-end Document AI pipelines, synthetic data generation, and Layout-Aware Transformer architectures (LiLT).
+          </p>
+          <p class="bio-paragraph">
+            My research interests lie in building intelligent agentic systems, key-value information extraction from visually complex documents, fine-tuning large language and multimodal models (Qwen 2.5, RoBERTa), and engineering reproducible benchmarks for financial and identity document verification.
+          </p>
+          <p class="quick-links">
+            <a href="mailto:iamram4096@gmail.com">Email</a> &nbsp;/&nbsp;
+            <a href="https://www.linkedin.com/in/abhiram-anil-609968284/" target="_blank">LinkedIn</a> &nbsp;/&nbsp;
+            <a href="https://github.com/abhiramanil369" target="_blank">GitHub</a> &nbsp;/&nbsp;
+            <a href="tel:+918592903369">+91 8592903369</a>
+          </p>
+        </div>
+        <div class="header-photo">
+          <img src="images/profile.jpg" alt="Abhiram Anil" class="profile-img">
+        </div>
+      </div>
+
+      <!-- EXPERIENCE SECTION -->
+      <div class="section">
+        <h2 class="section-title">Experience</h2>
+        
+        <div class="item-row">
+          <div class="item-left">
+            <strong>Samsung R&D Institute</strong><br>
+            <span>May 2026 – July 2026</span><br>
+            <small>Bangalore, Karnataka</small>
+          </div>
+          <div class="item-right">
+            <div class="item-title">Developer Intern</div>
+            <div class="item-description">
+              <ul>
+                <li>Engineered an end-to-end Document AI pipeline integrating <strong>synthetic data generation</strong>, <strong>OCR preprocessing</strong>, and <strong>Layout-Aware Transformers (LiLT)</strong> to enable structured key-value extraction from identity documents.</li>
+                <li>Created a Python script to generate <strong>10K+ synthetic identity documents</strong> using the OpenAI GPT-Image-1 Batch API and Gemini Vertex AI, addressing data scarcity and reducing generation costs by <strong>50%</strong>.</li>
+                <li>Automated document generation, preprocessing, annotation, and validation workflows to enable scalable preparation of training data for Document AI models.</li>
+                <li>Developed an automated quality-validation pipeline using <strong>PyTesseract</strong>, bounding-box processing, and fuzzy matching to verify generated fields and improve annotation reliability.</li>
+                <li>Evaluated recent Document AI Research and Layout-Aware Transformer Architectures to identify suitable approaches for robust information extraction from complex identity documents.</li>
+              </ul>
+            </div>
+            <div class="tags-container">
+              <span class="tag">Document AI</span>
+              <span class="tag">LiLT</span>
+              <span class="tag">Gemini Vertex AI</span>
+              <span class="tag">OpenAI API</span>
+              <span class="tag">PyTesseract</span>
+              <span class="tag">Python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECTS SECTION -->
+      <div class="section">
+        <h2 class="section-title">Featured Projects</h2>
+
+        <div class="item-row">
+          <div class="item-left">
+            <strong>Multi-Agent Reconciliation</strong><br>
+            <small>Python, Ollama, Pandas</small>
+          </div>
+          <div class="item-right">
+            <div class="item-title">Multi-Agent Financial Document Reconciliation & Anomaly Detection System</div>
+            <div class="item-description">
+              <ul>
+                <li>Engineered a <strong>5-agent architecture</strong> (Scout, Reconciliation, Anomaly, Resolution, Compliance) to automate financial reconciliation across invoices, payments, bank statements, and ledger records.</li>
+                <li>Built a reproducible benchmark and fault-injection pipeline generating <strong>10,000+ test cases</strong> across 6 financial error types with hidden ground-truth labels for systematic evaluation.</li>
+                <li>Integrated <strong>Qwen 2.5 7B via Ollama</strong> with Pydantic schema validation and deterministic compliance checks to enforce double-entry bookkeeping and chart-of-accounts constraints.</li>
+                <li>Evaluated the system on a 10,000-record benchmark, achieving <strong>100% precision</strong>, <strong>0% false-positive rate</strong>, <strong>90.91% F1-score</strong>, and <strong>39.60% auto-reconciliation rate</strong> with immutable JSON audit logs.</li>
+              </ul>
+            </div>
+            <div class="tags-container">
+              <span class="tag">Python</span>
+              <span class="tag">Multi-Agent AI</span>
+              <span class="tag">Qwen 2.5 7B</span>
+              <span class="tag">Ollama</span>
+              <span class="tag">Pydantic</span>
+              <span class="tag">Pandas</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="item-row">
+          <div class="item-left">
+            <strong>Document AI Extraction</strong><br>
+            <small>PyTorch, Hugging Face, NLP</small>
+          </div>
+          <div class="item-right">
+            <div class="item-title">Identity Document Classification & Key-Value Extraction</div>
+            <div class="item-description">
+              <ul>
+                <li>Designed a <strong>synthetic identity-document generation pipeline</strong> to address limited annotated datasets, generating realistic layouts, text fields, visual elements, and ground-truth annotations.</li>
+                <li>Developed a Layout-Aware Information Extraction Model by fine-tuning <strong>LiLT with RoBERTa</strong> and a custom extraction head for structured key-value extraction from identity documents.</li>
+                <li>Improved synthetic dataset reliability by integrating <strong>PyTesseract and fuzzy matching</strong> to automatically audit generated documents and validate field-level annotations.</li>
+                <li>Prepared standardized model-ready datasets to support experimentation across OCR-dependent Document AI architecture, including the LiLT model.</li>
+              </ul>
+            </div>
+            <div class="tags-container">
+              <span class="tag">PyTorch</span>
+              <span class="tag">Hugging Face</span>
+              <span class="tag">LiLT</span>
+              <span class="tag">RoBERTa</span>
+              <span class="tag">OCR</span>
+              <span class="tag">NLP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- EDUCATION SECTION -->
+      <div class="section">
+        <h2 class="section-title">Education</h2>
+
+        <div class="item-row">
+          <div class="item-left">
+            <strong>Aug 2023 – Present</strong>
+          </div>
+          <div class="item-right">
+            <div class="item-title">VIT Vellore</div>
+            <div class="item-subtitle">Bachelor of Technology in Computer Science and Engineering | Vellore, Tamil Nadu</div>
+          </div>
+        </div>
+
+        <div class="item-row">
+          <div class="item-left">
+            <strong>June 2021 – May 2022</strong>
+          </div>
+          <div class="item-right">
+            <div class="item-title">St. Thomas College HSS</div>
+            <div class="item-subtitle">Higher Secondary (XII) | Thrissur, Kerala</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TECHNICAL SKILLS SECTION -->
+      <div class="section">
+        <h2 class="section-title">Technical Skills</h2>
+        
+        <div class="skills-grid">
+          <div class="skill-category">
+            <div class="skill-category-title">Languages</div>
+            <div>Java, Python, SQL</div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-category-title">ML / AI</div>
+            <div>PyTorch, Hugging Face Transformers, Deep Learning, NLP, Model Fine-Tuning, Ollama, Qwen 2.5</div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-category-title">Cloud & Tools</div>
+            <div>AWS, Google Cloud Platform, Git, GitHub, VS Code, IntelliJ IDEA</div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-category-title">Libraries</div>
+            <div>NumPy, Pandas, Matplotlib, Pydantic, BeautifulSoup, Pytest</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <footer>
+        <p>Adapted from Jon Barron's website template format. Designed with zero gradients.</p>
+      </footer>
+    </div>
+  </body>
+</html>
